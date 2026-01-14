@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.container {
+  text-align: center;
+  width: 470px;
+  height: 680px;
+  border: 1px solid black;
+}
+
+.title {
+  margin-top: 35px;
+  color: #32815e;
+  margin-bottom: 20px;
+}
+.form {
+  text-align: left;
+  margin-left: 20px;
+}
+.h3 {
+  color: #13545c;
+}
+
+input {
+  width: 440px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+select {
+  width: 412px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 440px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 340px;
+  height: 50px;
+  background-color: #0ea5a4;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+</style>
+<body>
+    <div class="container">
+      <h1 class="title">Biểu Mẫu Feedback Phòng Khám Nha Khoa</h1>
+      <div class="form">
+        <label class="h3"><h3>Họ và tên</h3></label>
+        <input type="text" placeholder="Nhập họ tên" />
+        <label class="h3"><h3>Email</h3></label>
+        <input type="text" placeholder="example@gmail.com" />
+        <label class="h3"><h3>Dịch vụ đã sử dụng</h3></label>
+        <select>
+          <option>Khám răng tổng quát</option>
+          <option>Chỉnh nha - sửa răng</option>
+          <option>Cạo vôi răng</option>
+        </select>
+        <label class="h3"><h3>Mức độ hài lòng</h3></label>
+        <select>
+          <option>Rất hài lòng</option>
+          <option>Hài lòng</option>
+          <option>Không hài lòng</option>
+          <option>Rất không hài lòng</option>
+        </select>
+        <label class="h3"><h3>Nội dung phản hồi</h3></label>
+        <textarea
+          placeholder="Hãy cho chúng tôi biết cảm nhận của bạn..."
+        ></textarea>
+      </div>
+      <button>Gửi Feedback</button>
+    </div>
+</body>
+</html>
